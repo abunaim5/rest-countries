@@ -1,6 +1,21 @@
 .country {
+    background-color: lightblue;
     margin: 20px;
     padding: 15px;
     border: 2px solid steelblue;
     border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: 150px;
+    /* object-fit: contain; */
+}
+
+.btn{
+    margin-top: 10px;
 }
