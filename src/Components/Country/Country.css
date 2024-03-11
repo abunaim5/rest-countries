@@ -1,12 +1,12 @@
 .country {
     background-color: lightblue;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 15px;
     border: 2px solid steelblue;
     border-radius: 10px;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
@@ -16,6 +16,6 @@
     /* object-fit: contain; */
 }
 
-.btn{
+.btn {
     margin-top: 10px;
 }

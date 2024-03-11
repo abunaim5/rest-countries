@@ -1,8 +1,36 @@
 .country-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
 }
 
 h4 {
     text-align: center;
+}
+
+.visited-countries-container {
+    border: 2px solid steelblue;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.visited-countries {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.visited-countries p {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.visited-countries p span {
+    flex: 1;
 }
